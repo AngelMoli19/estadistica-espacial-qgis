@@ -1,32 +1,20 @@
 # Estadística Espacial - QGIS
 
-Repositorio del curso. Evidencias de la Práctica Calificada 1.
+Practica Calificada 1 del curso. Aquí subo las evidencias que pide el profe: instalación de QGIS, una capa raster y una capa vectorial cargadas.
 
-## Contenido
+## Qué hay en este repo
 
-- `data/muestra_raster.tif` — capa raster de ejemplo (imagen satelital RGB, Landsat)
-- `data/peru_departamentos.geojson` — capa vectorial de ejemplo (departamentos del Perú)
-- `data/puno_provincias.geojson` — capa vectorial de las 13 provincias de Puno (alineada con
-  el ejemplo de la lectura del curso: Azángaro, Carabaya, Chucuito, El Collao, Huancané,
-  Lampa, Melgar, Moho, Puno, San Antonio de Putina, San Román, Sandia, Yunguyo)
-- `evidencias/` — capturas de pantalla (instalación de QGIS, capa raster, capa vectorial)
+Puse dos capas vectoriales de prueba, la de Puno la use como ejemplo porque justo en la lectura del curso se trabaja con las provincias de Puno (Azángaro, Carabaya, Chucuito, El Collao, Huancané, Lampa, Melgar, Moho, Puno, San Antonio de Putina, San Román, Sandia y Yunguyo). La de Perú completo la dejé por si la necesito después.
 
-## Pasos para generar las evidencias
+- `data/muestra_raster.tif` -> raster de prueba, una imagen satelital
+- `data/puno_provincias.geojson` -> las 13 provincias de Puno
+- `data/peru_departamentos.geojson` -> departamentos de todo el Perú (no la usé al final pero la dejo)
+- `evidencias/` -> mis capturas de pantalla
 
-1. **Instalación de QGIS**: abrir QGIS Desktop y capturar pantalla mostrando la ventana
-   principal con el número de versión (Ayuda > Acerca de QGIS, o el splash/About).
-2. **Capa raster**: en QGIS, `Capa > Añadir Capa > Añadir Capa Raster...` y seleccionar
-   `data/muestra_raster.tif`. Capturar pantalla con la capa visible en el mapa.
-3. **Capa vectorial**: `Capa > Añadir Capa > Añadir Capa Vectorial...` y seleccionar
-   `data/puno_provincias.geojson` (o `data/peru_departamentos.geojson`). Capturar pantalla
-   con la capa visible en el mapa.
-4. Guardar las capturas en `evidencias/` con nombres descriptivos, por ejemplo:
-   - `evidencias/01-instalacion-qgis.png`
-   - `evidencias/02-capa-raster.png`
-   - `evidencias/03-capa-vectorial.png`
-5. Confirmar los cambios y subirlos a GitHub (ver más abajo).
-6. Completar el formulario de Google con:
-   - Enlace de este repositorio de GitHub
-   - Enlace a la evidencia de instalación (puede ser la misma URL del repo, apuntando a la imagen)
-   - Enlace a la evidencia de capa raster
-   - Enlace a la evidencia de capa vectorial
+## Cómo lo hice
+
+1. Abrí QGIS y tomé captura de la ventana principal (evidencia de que está instalado)
+2. Cargué el raster desde `Capa > Añadir Capa > Añadir Capa Raster` seleccionando `data/muestra_raster.tif`
+3. Cargué el vector desde `Capa > Añadir Capa > Añadir Capa Vectorial` con `data/puno_provincias.geojson`
+4. Guardé las 3 capturas en `evidencias/`
+5. Subí todo a GitHub y puse los links en el formulario
