@@ -1,6 +1,6 @@
 # Estadística Espacial - QGIS
 
-Practica Calificada 1 del curso. Aquí subo las evidencias que pide el profe: instalación de QGIS, una capa raster y una capa vectorial cargadas.
+Elaborado por Miguel Angel Molina Mansilla
 
 ## Qué hay en este repo
 
