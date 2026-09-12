@@ -6,6 +6,9 @@ Repositorio del curso. Evidencias de la Práctica Calificada 1.
 
 - `data/muestra_raster.tif` — capa raster de ejemplo (imagen satelital RGB, Landsat)
 - `data/peru_departamentos.geojson` — capa vectorial de ejemplo (departamentos del Perú)
+- `data/puno_provincias.geojson` — capa vectorial de las 13 provincias de Puno (alineada con
+  el ejemplo de la lectura del curso: Azángaro, Carabaya, Chucuito, El Collao, Huancané,
+  Lampa, Melgar, Moho, Puno, San Antonio de Putina, San Román, Sandia, Yunguyo)
 - `evidencias/` — capturas de pantalla (instalación de QGIS, capa raster, capa vectorial)
 
 ## Pasos para generar las evidencias
@@ -15,7 +18,8 @@ Repositorio del curso. Evidencias de la Práctica Calificada 1.
 2. **Capa raster**: en QGIS, `Capa > Añadir Capa > Añadir Capa Raster...` y seleccionar
    `data/muestra_raster.tif`. Capturar pantalla con la capa visible en el mapa.
 3. **Capa vectorial**: `Capa > Añadir Capa > Añadir Capa Vectorial...` y seleccionar
-   `data/peru_departamentos.geojson`. Capturar pantalla con la capa visible en el mapa.
+   `data/puno_provincias.geojson` (o `data/peru_departamentos.geojson`). Capturar pantalla
+   con la capa visible en el mapa.
 4. Guardar las capturas en `evidencias/` con nombres descriptivos, por ejemplo:
    - `evidencias/01-instalacion-qgis.png`
    - `evidencias/02-capa-raster.png`
